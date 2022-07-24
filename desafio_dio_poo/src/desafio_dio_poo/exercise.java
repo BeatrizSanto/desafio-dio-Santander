@@ -1,0 +1,16 @@
+package desafio_dio_poo;
+
+import java.util.Scanner;
+
+public class exercise {
+	public static void main(String[] args) {
+		  
+		Scanner leitor = new Scanner(System.in);
+		
+	  int n = leitor.nextInt();
+	  
+   System.out.println( (n+1) * (n+2) / 2 );
+	}
+    
+
+}
